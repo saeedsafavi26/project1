@@ -8,7 +8,7 @@ pipeline {
             steps {
                 // Execute build steps here
                 //sh 'echo "Building the project!!!!!"'
-                buildStage()
+                buildStage 'PRG1'
             }
         }
 
