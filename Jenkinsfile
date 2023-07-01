@@ -1,4 +1,4 @@
-@Library('build')_
+@Library('MyTestSharedLib')_
 
 pipeline {
     agent any
