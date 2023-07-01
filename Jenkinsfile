@@ -15,14 +15,14 @@ pipeline {
         stage('Test') {
             steps {
                 // Execute test steps here
-                sh 'echo "test the project!!!!!!"'
+                test()
             }
         }
 
         stage('Deploy') {
             steps {
                 // Execute deployment steps here
-                sh 'echo "deploying"'
+                deploy()
             }
         }
     }
