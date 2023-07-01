@@ -1,4 +1,4 @@
-def gv
+@Library('build')
 
 pipeline {
     agent any
