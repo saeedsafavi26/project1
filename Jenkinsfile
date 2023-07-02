@@ -1,7 +1,7 @@
-Library identifier: 'MyTestSharedLib@master', retriever: modernSCM(
+library identifier: 'MyTestSharedLib@master', retriever: modernSCM(
     [$class: 'GitSCMSource',
     remote: 'https://github.com/saeedsafavi26/project1.git',
-    credentialsID: 'NoneExpirableTokenGithub'
+    credentialsId: 'NoneExpirableTokenGithub'
     ]
 )
 
