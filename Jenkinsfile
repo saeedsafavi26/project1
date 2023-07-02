@@ -1,4 +1,12 @@
-@Library('MyTestSharedLib')_
+Library identifier: 'MyTestSharedLib@master', retriever: modernSCM(
+    [$class: 'GitSCMSource',
+    remote: 'https://github.com/saeedsafavi26/project1.git',
+    credentialsID: 'NoneExpirableTokenGithub'
+    ]
+)
+
+// if it is a global shared library, you should call it like this:
+//@Library('MyTestSharedLib')_
 
 pipeline {
     agent any
