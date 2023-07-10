@@ -17,6 +17,7 @@ pipeline {
                 // Execute build steps here
                 //sh 'echo "Building the project!!!!!"'
                 buildStage 'PRG1'
+                pritnln "$GIT_URL"
             }
         }
 
